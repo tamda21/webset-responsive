@@ -1,0 +1,148 @@
+body {
+  height: 4000px;
+  padding-top: 70px;
+}
+
+.navbar {
+  min-height: 70px;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: #E14B42;
+  color: #dfd7d7;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #dfd7d7;
+}
+
+.nav > li > a {
+  margin-top: 9px;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #dfd7d7;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  padding: 22px 15px;
+}
+
+.navbar-brand span {
+  color: #E14B42;
+}
+
+.dropdown-menu {
+  min-width: 200px;
+  background-color: #333;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.navbar-nav > li > .dropdown-menu {
+  right: auto;
+  left: 0;
+}
+
+.dropdown-menu > li > a {
+  color: #fff;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: #E14B42;
+  color: #fff;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.carousel-caption {
+  margin-bottom: 50px;
+  background-color: #333;
+  opacity: .5;
+  border-radius: 20px;
+}
+
+.carousel-indicators {
+  bottom: 0;
+}
+
+.carousel-indicators li {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #E14B42;
+}
+
+.carousel-indicators .active {
+  width: 22px;
+  height: 22px;
+  background-color: #E14B42;
+}
+
+.about {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.about h3 span {
+  color: #E14B42;
+}
+
+.about h3 {
+  font-weight: bold;
+}
+
+.about .lead {
+  line-height: 2em;
+}
+
+.features {
+  background-color: #EEE;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 20px;
+}
+
+.features h2 {
+  margin-bottom: 40px;
+}
+
+.feat {
+  background-color: #fff;
+  padding: 10px 5px;
+  margin-bottom: 15px;
+  color: #817e7e;
+  height: 180px;
+  border-radius: 25px;
+  -webkit-transition: all .6s linear;
+  transition: all .6s linear;
+}
+
+.feat:hover span,
+.feat:hover h3 {
+  color: #000;
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
+.feat span {
+  font-size: 20px;
+}
+
+.feat h3 {
+  margin-bottom: 15px;
+}
+
+.feat p {
+  text-transform: capitalize;
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */
