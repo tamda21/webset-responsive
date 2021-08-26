@@ -10,7 +10,7 @@ body {
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  background-color: #E14B42;
+  background-color: #e14b42;
   color: #dfd7d7;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 .navbar-brand span {
-  color: #E14B42;
+  color: #e14b42;
 }
 
 .dropdown-menu {
@@ -52,7 +52,7 @@ body {
 }
 
 .dropdown-menu > li > a:hover {
-  background-color: #E14B42;
+  background-color: #e14b42;
   color: #fff;
   padding: 10px;
 }
@@ -64,7 +64,7 @@ img {
 .carousel-caption {
   margin-bottom: 50px;
   background-color: #333;
-  opacity: .5;
+  opacity: 0.5;
   border-radius: 20px;
 }
 
@@ -76,13 +76,18 @@ img {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  border: 1px solid #E14B42;
+  border: 1px solid #e14b42;
 }
 
 .carousel-indicators .active {
   width: 22px;
   height: 22px;
-  background-color: #E14B42;
+  background-color: #e14b42;
+}
+
+.glyphicon-chevron-left:hover,
+.glyphicon-chevron-right:hover {
+  color: #e14b42;
 }
 
 .about {
@@ -90,12 +95,12 @@ img {
   padding-bottom: 60px;
 }
 
-.about h3 span {
-  color: #E14B42;
-}
-
 .about h3 {
   font-weight: bold;
+}
+
+.about h3 span {
+  color: #e14b42;
 }
 
 .about .lead {
@@ -103,7 +108,7 @@ img {
 }
 
 .features {
-  background-color: #EEE;
+  background-color: #eee;
   width: 100%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -122,15 +127,8 @@ img {
   color: #817e7e;
   height: 180px;
   border-radius: 25px;
-  -webkit-transition: all .6s linear;
-  transition: all .6s linear;
-}
-
-.feat:hover span,
-.feat:hover h3 {
-  color: #000;
-  -webkit-transform: scale(1.5, 1.5);
-          transform: scale(1.5, 1.5);
+  -webkit-transition: all 0.6s linear;
+  transition: all 0.6s linear;
 }
 
 .feat span {
@@ -144,5 +142,58 @@ img {
 .feat p {
   text-transform: capitalize;
   font-size: 15px;
+}
+
+.feat:hover span,
+.feat:hover h3 {
+  color: #000;
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
+.comment {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.comment h3 {
+  font-weight: bold;
+}
+
+.comment .lead {
+  line-height: 2em;
+  margin-bottom: 10px;
+}
+
+.comment span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e14b42;
+}
+
+.comment .carousel-inner {
+  min-height: 160px;
+}
+
+.comment .carousel-indicators {
+  position: static;
+  width: 100%;
+  margin-left: auto;
+  padding-top: 20px;
+}
+
+.comment .carousel-indicators li {
+  text-indent: 0;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  margin-left: 10px;
+  border: 3px solid #EEE;
+  opacity: .5;
+}
+
+.comment .carousel-indicators li:hover {
+  border: 3px solid #e14b42;
+  opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */
