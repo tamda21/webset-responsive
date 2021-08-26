@@ -188,12 +188,68 @@ img {
   height: 80px;
   overflow: hidden;
   margin-left: 10px;
-  border: 3px solid #EEE;
-  opacity: .5;
+  border: 3px solid #eee;
+  opacity: 0.5;
 }
 
 .comment .carousel-indicators li:hover {
   border: 3px solid #e14b42;
   opacity: 1;
+}
+
+.price {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.price h2 {
+  margin-bottom: 50px;
+}
+
+.price h4 {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.price .box {
+  margin-bottom: 30px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.price .box:hover p {
+  -webkit-transform: scale(1.1, 1.1) rotate(360deg);
+          transform: scale(1.1, 1.1) rotate(360deg);
+}
+
+.price .box h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.price .box p {
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #666;
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+  line-height: 100px;
+  border-radius: 50%;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+.price .box ul {
+  line-height: 250%;
+  font-weight: bold;
+}
+
+.price .box button {
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */

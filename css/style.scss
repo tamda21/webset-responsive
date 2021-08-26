@@ -82,9 +82,8 @@ img {
   }
 }
 .glyphicon-chevron-left:hover,
-.glyphicon-chevron-right:hover
-{
-   color: $mainColor
+.glyphicon-chevron-right:hover {
+  color: $mainColor;
 }
 // End carousal
 // Start section About
@@ -139,47 +138,95 @@ img {
 }
 
 // End section Features
-//Start Section Comment 
-.comment{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    h3{
-     font-weight: bold;
+//Start Section Comment
+.comment {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  h3 {
+    font-weight: bold;
+  }
+  .lead {
+    line-height: 2em;
+    margin-bottom: 10px;
+  }
+  span {
+    font-size: 18px;
+    font-weight: bold;
+    color: $mainColor;
+  }
+  .carousel-inner {
+    min-height: 160px;
+  }
+  .carousel-indicators {
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+    li {
+      text-indent: 0;
+      width: 80px;
+      height: 80px;
+      overflow: hidden;
+      margin-left: 10px;
+      border: 3px solid #eee;
+      opacity: 0.5;
+      &:hover {
+        border: 3px solid $mainColor;
+        opacity: 1;
+      }
     }
-    .lead{
-        line-height: 2em;
-        margin-bottom: 10px;
+  }
+}
+//End Section Comment
+
+//Start section price table
+.price {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+  h2 {
+    margin-bottom: 50px;
+  }
+  h4 {
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  .box {
+    margin-bottom: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    &:hover p{
+      transform: scale(1.1,1.1)rotate(360deg);
+     }
+    h4 {
+      margin-bottom: 10px;
+      font-weight: bold;
+      white-space: nowrap;
     }
-    span{
-        font-size: 18px;
-        font-weight: bold;
-        color: $mainColor;
+    p {
+      font-size: 25px;
+      margin-bottom: 15px;
+      font-weight: bold;
+      color: #666;
+      width: 100px;
+      height: 100px;
+      background-color: #eee;
+      line-height: 100px;
+      border-radius: 50%;
+      transition: all 0.7s ease;
+     
     }
-    .carousel-inner{
-        min-height: 160px;
+    ul {
+      line-height: 250%;
+      font-weight: bold;
     }
-    .carousel-indicators{
-        position: static;
-        width: 100%;
-        margin-left: auto;
-        padding-top: 20px;
-         li{
-             text-indent: 0;
-             width: 80px;
-             height: 80px;
-            overflow: hidden;
-            margin-left: 10px;
-            border: 3px solid #EEE;
-            opacity: .5;
-            &:hover{
-                border: 3px solid $mainColor;
-                opacity: 1;
-            }
-         }
+    button {
+      margin-bottom: 10px;
     }
+   
+  }
+ 
 }
 
-
-
-
-//End Section Comment 
+//End section price table
