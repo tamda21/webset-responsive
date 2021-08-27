@@ -127,8 +127,8 @@ img {
   color: #817e7e;
   height: 180px;
   border-radius: 25px;
-  -webkit-transition: all 0.6s linear;
-  transition: all 0.6s linear;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 
 .feat span {
@@ -281,5 +281,36 @@ img {
 .our-team .content .team i {
   font-size: 15px;
   margin-right: 10px;
+}
+
+.subscribe {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.subscribe h1 {
+  margin-bottom: 30px;
+  color: #888;
+  letter-spacing: 2px;
+}
+
+.subscribe p {
+  margin-bottom: 30px;
+}
+
+.subscribe .inline-form input {
+  width: 300px;
+  display: inline;
+  border-radius: 0;
+  margin-bottom: 5px;
+}
+
+.subscribe .inline-form .btn {
+  padding: 5.75px 15px;
+  margin-bottom: 2px;
+  border-radius: 0;
+  font-weight: bold;
+  margin-left: -5px;
 }
 /*# sourceMappingURL=style.css.map */
