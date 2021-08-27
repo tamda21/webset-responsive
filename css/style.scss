@@ -196,9 +196,9 @@ img {
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 10px;
-    &:hover p{
-      transform: scale(1.1,1.1)rotate(360deg);
-     }
+    &:hover p {
+      transform: scale(1.1, 1.1) rotate(360deg);
+    }
     h4 {
       margin-bottom: 10px;
       font-weight: bold;
@@ -215,7 +215,6 @@ img {
       line-height: 100px;
       border-radius: 50%;
       transition: all 0.7s ease;
-     
     }
     ul {
       line-height: 250%;
@@ -224,9 +223,35 @@ img {
     button {
       margin-bottom: 10px;
     }
-   
   }
- 
 }
 
 //End section price table
+// Start section Our-Team
+.our-team {
+  background: url(../img/01.jpg) no-repeat center center fixed;
+  min-height: 600px;
+  color: #fff;
+  .content {
+    background-color: rgba(2, 2, 2, 0.6);
+    min-height: 600px;
+
+    h1 {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    .team {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      h3{
+        margin-bottom: 40px;
+      }
+      i{
+        font-size: 15px;
+        margin-right: 10px;
+        
+      }
+    }
+  }
+}
+// End section Our-Team
