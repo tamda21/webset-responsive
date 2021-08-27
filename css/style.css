@@ -1,5 +1,5 @@
 body {
-  height: 4000px;
+  height: 8000px;
   padding-top: 70px;
 }
 
@@ -261,7 +261,7 @@ img {
 
 .our-team .content {
   background-color: rgba(2, 2, 2, 0.6);
-  min-height: 600px;
+  min-height: 300px;
 }
 
 .our-team .content h1 {
@@ -312,5 +312,42 @@ img {
   border-radius: 0;
   font-weight: bold;
   margin-left: -5px;
+}
+
+.statistics {
+  background: url(../img/moto.jpg) no-repeat center center fixed;
+  min-height: 300px;
+}
+
+.statistics h1 {
+  margin-bottom: 50px;
+}
+
+.statistics .data {
+  background-color: rgba(2, 2, 2, 0.7);
+  color: #B6B5B5;
+  min-height: 300px;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+.statistics .stat {
+  margin-bottom: 20px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.statistics .stat p {
+  font-size: 60px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.statistics .stat span {
+  font-size: 18px;
+}
+
+.statistics .stat:hover {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
