@@ -379,4 +379,33 @@ img {
   text-align-last: left;
   text-indent: 10px;
 }
+
+.contact-us {
+  background: url(../img/contact.jpg) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.contact-us .felids {
+  background-color: rgba(9, 9, 9, 0.5);
+  color: #fff;
+  min-height: 300px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.contact-us p {
+  margin-bottom: 40px;
+}
+
+.contact-us textarea {
+  height: 107px;
+}
+
+.contact-us input[type="text"],
+.contact-us textarea {
+  background-color: rgba(82, 78, 78, 0.5);
+  color: #fff;
+  border: none;
+}
 /*# sourceMappingURL=style.css.map */

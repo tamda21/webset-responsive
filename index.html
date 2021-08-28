@@ -1,580 +1,547 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/all.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <!-- Start NavBar -->
-    <nav
-      class="navbar navbar-default navbar-inverse navbar-fixed-top"
-      role="navigation"
-    >
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button
-            type="button"
-            class="navbar-toggle"
-            data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
-          >
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Tamda <span>Inc</span></a>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Type</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Help</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                >Motorcycles<span class="caret"></span
-              ></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Model</a></li>
-                <li><a href="#">Serial</a></li>
-                <li><a href="#">Capacity</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Option</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container-fluid -->
-    </nav>
-    <!-- End NavBar -->
-    <!-- Start Carousel -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/all.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Document</title>
+</head>
 
-    <div
-      id="carousel-example-generic"
-      class="carousel slide"
-      data-ride="carousel"
-    >
-      <!-- Indicators -->
-      <ol class="carousel-indicators hidden-xs">
-        <li
-          data-target="#carousel-example-generic"
-          data-slide-to="0"
-          class="active"
-        ></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-      </ol>
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="img/02.jpg" alt="..." />
-          <div class="carousel-caption hidden-xs">
-            <h1>Harly Davinson</h1>
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-              consequatur hic officiis nisi eius quis, provident totam
-              dignissimos cum quo recusandae in eos impedit ad possimus. Neque
-              animi perferendis quaerat.
-            </p>
-          </div>
-        </div>
-        <div class="item">
-          <img src="img/03.jpg" alt="..." />
-          <div class="carousel-caption hidden-xs">
-            <h1>Shadow 750ch</h1>
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-              consequatur hic officiis nisi eius quis, provident totam
-              dignissimos cum quo recusandae in eos impedit ad possimus. Neque
-              animi perferendis quaerat.
-            </p>
-          </div>
-        </div>
-        <div class="item">
-          <img src="img/04.jpg" alt="..." />
-          <div class="carousel-caption hidden-xs">
-            <h1>Sezuki</h1>
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-              consequatur hic officiis nisi eius quis, provident totam
-              dignissimos cum quo recusandae in eos impedit ad possimus. Neque
-              animi perferendis quaerat.
-            </p>
-          </div>
-        </div>
-        <div class="item">
-          <img src="img/05.jpg" alt="..." />
-          <div class="carousel-caption hidden-xs">
-            <h1>Honda 1300ch</h1>
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-              consequatur hic officiis nisi eius quis, provident totam
-              dignissimos cum quo recusandae in eos impedit ad possimus. Neque
-              animi perferendis quaerat.
-            </p>
-          </div>
-        </div>
+<body>
+  <!-- Start NavBar -->
+  <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Tamda <span>Inc</span></a>
       </div>
 
-      <!-- Controls -->
-      <a
-        class="left carousel-control"
-        href="#carousel-example-generic"
-        role="button"
-        data-slide="prev"
-      >
-        <span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
-      <a
-        class="right carousel-control"
-        href="#carousel-example-generic"
-        role="button"
-        data-slide="next"
-      >
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">Type</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Help</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Motorcycles<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Model</a></li>
+              <li><a href="#">Serial</a></li>
+              <li><a href="#">Capacity</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Option</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+  <!-- End NavBar -->
+  <!-- Start Carousel -->
+
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators hidden-xs">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/02.jpg" alt="..." />
+        <div class="carousel-caption hidden-xs">
+          <h1>Harly Davinson</h1>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
+            consequatur hic officiis nisi eius quis, provident totam
+            dignissimos cum quo recusandae in eos impedit ad possimus. Neque
+            animi perferendis quaerat.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/03.jpg" alt="..." />
+        <div class="carousel-caption hidden-xs">
+          <h1>Shadow 750ch</h1>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
+            consequatur hic officiis nisi eius quis, provident totam
+            dignissimos cum quo recusandae in eos impedit ad possimus. Neque
+            animi perferendis quaerat.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/04.jpg" alt="..." />
+        <div class="carousel-caption hidden-xs">
+          <h1>Sezuki</h1>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
+            consequatur hic officiis nisi eius quis, provident totam
+            dignissimos cum quo recusandae in eos impedit ad possimus. Neque
+            animi perferendis quaerat.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/05.jpg" alt="..." />
+        <div class="carousel-caption hidden-xs">
+          <h1>Honda 1300ch</h1>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
+            consequatur hic officiis nisi eius quis, provident totam
+            dignissimos cum quo recusandae in eos impedit ad possimus. Neque
+            animi perferendis quaerat.
+          </p>
+        </div>
+      </div>
     </div>
 
-    <!-- End Carousel -->
-    <!-- Start section About -->
-    <section class="about text-center">
-      <div class="container">
-        <h3>Little description About <span>Motorcycle</span></h3>
-        <p class="lead">
-          A motorcycle, often called a motorbike, bike, or cycle, is a two- or
-          three-wheeled motor vehicle. Motorcycle design varies greatly to suit
-          a range of different purposes: long-distance travel, commuting,
-          cruising, sport (including racing), and off-road riding.
-        </p>
-      </div>
-    </section>
-    <!-- End section About -->
-    <!-- Start section Features -->
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
 
-    <section class="features text-center">
-      <div class="container">
-        <h2>Features</h2>
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-md-6">
-            <div class="feat">
-              <span
-                class="glyphicon glyphicon-wrench"
-                aria-hidden="true"
-              ></span>
-              <h3>Services</h3>
-              <p class="lead">
-                our service is disposable and serviceable 24h/24h
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="feat">
-              <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
-              <h3>Daily</h3>
-              <p class="lead">we are clocked in our reparation</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="feat">
-              <span
-                class="glyphicon glyphicon-tree-conifer"
-                aria-hidden="true"
-              ></span>
-              <h3>Environment</h3>
-              <p class="lead">we respect the environnement all the time</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="feat">
-              <span class="glyphicon glyphicon-tint" aria-hidden="true"></span>
-              <h3>Quality</h3>
-              <p class="lead">
-                we have very good quality in our company (ISO 9001)
-              </p>
-            </div>
+  <!-- End Carousel -->
+  <!-- Start section About -->
+  <section class="about text-center">
+    <div class="container">
+      <h3>Little description About <span>Motorcycle</span></h3>
+      <p class="lead">
+        A motorcycle, often called a motorbike, bike, or cycle, is a two- or
+        three-wheeled motor vehicle. Motorcycle design varies greatly to suit
+        a range of different purposes: long-distance travel, commuting,
+        cruising, sport (including racing), and off-road riding.
+      </p>
+    </div>
+  </section>
+  <!-- End section About -->
+  <!-- Start section Features -->
+
+  <section class="features text-center">
+    <div class="container">
+      <h2>Features</h2>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-md-6">
+          <div class="feat">
+            <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
+            <h3>Services</h3>
+            <p class="lead">
+              our service is disposable and serviceable 24h/24h
+            </p>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- End section Features -->
-    <!-- Start Comment -->
-    <section class="comment text-center">
-      <div class="container">
-        <h3>What Our Client Say</h3>
-        <!-- Start Carousel -->
-
-        <div id="my-side" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <p class="lead">
-                “The service I’ve received from so many people at Lambert
-                Chapman has been excellent, their knowledge and advice have been
-                instrumental in turning around the fortunes of my company.
-                Always professional and friendly in equal measure – even with
-                deadlines looming!”
-              </p>
-              <span>Omar Slahmi</span>
-            </div>
-            <div class="item">
-              <p class="lead">
-                “Starting a new business 6 years ago, Lambert Chapman have been
-                on the other end of the phone or email to help us all the way.
-                Always delivering a friendly and professional service – thank
-                you.”
-              </p>
-              <span>Zakaria Achraq</span>
-            </div>
-            <div class="item">
-              <p class="lead">
-                “Starting a new business 6 years ago, Lambert Chapman have been
-                on the other end of the phone or email to help us all the way.
-                Always delivering a friendly and professional service – thank
-                you.”
-              </p>
-              <span>Fouad Tarmoni</span>
-            </div>
-            <div class="item">
-              <p class="lead">
-                “I find all staff very friendly, helpful and always there to
-                provide that little bit extra.”
-              </p>
-              <span>Mariam Boghli</span>
-            </div>
-          </div>
-          <ol class="carousel-indicators">
-            <li data-target="#my-side" data-slide-to="0" class="active">
-              <img src="img/001.jpg" alt="omar" />
-            </li>
-            <li data-target="#my-side" data-slide-to="1">
-              <img src="img/002.jpg" alt="zakaria" />
-            </li>
-            <li data-target="#my-side" data-slide-to="2">
-              <img src="img/003.jpg" alt="fouad" />
-            </li>
-            <li data-target="#my-side" data-slide-to="3">
-              <img src="img/004.jpg" alt="mariam" />
-            </li>
-          </ol>
-        </div>
-
-        <!-- End Carousel -->
-      </div>
-    </section>
-    <!-- End Comment -->
-    <!-- Start Section Price Table -->
-    <section class="price text-center">
-      <div class="container">
-        <h2 class="hidden-xs">Promotion Spare Parts Motorcycle</h2>
-        <h4 class="hidden-lg hidden-md hidden-sm visible-xs-block">
-          Promotion Spare Parts Motorcycle
-        </h4>
-        <div class="row">
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="box">
-              <h4 class="text-danger">Endgame Hand Grips</h4>
-              <p class="center-block">$195</p>
-              <ul class="list-unstyled">
-                <li>black</li>
-                <li>1,5"</li>
-                <li>Easy-to-instal</li>
-              </ul>
-
-              <button type="button" class="btn btn-danger">Order Now</button>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="box">
-              <h4 class="text-info">Endgame Footpegs</h4>
-              <p class="center-block">$139</p>
-              <ul class="list-unstyled">
-                <li>Black Anodized</li>
-                <li>Intense black rubber</li>
-                <li>Slotted left and right</li>
-              </ul>
-
-              <button type="button" class="btn btn-info">Order Now</button>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="box">
-              <h4 class="text-primary">Harley-Davidson Audio</h4>
-              <p class="center-block">$349</p>
-              <ul class="list-unstyled">
-                <li>Vibration-tested 6.5"</li>
-                <li>Garage-ready installation</li>
-                <li>Upgrade Original Equipment</li>
-              </ul>
-
-              <button type="button" class="btn btn-primary">Order Now</button>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="box">
-              <h4 class="text-success">scream's Eagle Derby Cover</h4>
-              <p class="center-block">$69.95</p>
-              <ul class="list-unstyled">
-                <li>High contrast paint fil</li>
-                <li>Gloss Black finish</li>
-                <li>Easy-to-instal</li>
-              </ul>
-
-              <button type="button" class="btn btn-success">Order Now</button>
-            </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="feat">
+            <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+            <h3>Daily</h3>
+            <p class="lead">we are clocked in our reparation</p>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- End Section Price Table -->
-    <!-- Start Time -->
-
-    <section class="our-team text-center">
-      <div class="content">
-        <div class="container">
-          <h1>Famous Actors Love motorcycle's</h1>
-          <div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-3">
-              <div class="team">
-                <img class="img-circle" src="img/act1.jpg" alt="Johnny Depp" />
-                <h3>Johnny Depp</h3>
-                <p class="lead">
-                  CANNES,FRANCE - 14 MAY 2011: Actor Johnny Depp attends the
-                  'Pirates of the Caribbean: On Stranger Tides' Premiere during
-                  the 64th Cannes Film Festival on May 14, 2011 in Cannes,
-                  France.
-                </p>
-                <i class="fab fa-google-plus-g"></i>
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-youtube"></i>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-3">
-              <div class="team">
-                <img
-                  class="img-circle"
-                  src="img/act2.jpg"
-                  alt="Robert De Niro"
-                />
-                <h3>Robert De Niro</h3>
-                <p class="lead">
-                  BERLIN - FEBRUARY 10: Actor Robert De Niro attends the
-                  premiere to promote the movie 'The Good Shepherd' during the
-                  57th Berlin International Film Festival on February 10, 2007
-                  in Berlin, Germany
-                </p>
-                <i class="fab fa-google-plus-g"></i>
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-youtube"></i>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-3">
-              <div class="team">
-                <img
-                  class="img-circle"
-                  src="img/act3.jpg"
-                  alt="Leonardo DiCaprio"
-                />
-                <h3>Leonardo DiCaprio</h3>
-                <p class="lead">
-                  CANNES, FRANCE - MAY 15: Actor Leonardo DiCaprio attends the
-                  Premiere of 'The Great Gatsby' at The 66th Cannes Film
-                  Festival Festivals on May 15, 2013 in Cannes, France
-                </p>
-                <i class="fab fa-google-plus-g fa-5x"></i>
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-youtube"></i>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-3">
-              <div class="team">
-                <img
-                  class="img-circle"
-                  src="img/act4.jpg"
-                  alt="Penelope Cruz"
-                />
-                <h3>Penelope Cruz</h3>
-                <p class="lead">
-                  CANNES, FRANCE - MAY 08: Penelope Cruz attends the screening
-                  of 'Everybody Knows' and the opening gala during the 71st
-                  Cannes Film Festival on May 8, 2018 in Cannes, France.
-                </p>
-                <i class="fab fa-google-plus-g fa-5x"></i>
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-youtube"></i>
-              </div>
-            </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="feat">
+            <span class="glyphicon glyphicon-tree-conifer" aria-hidden="true"></span>
+            <h3>Environment</h3>
+            <p class="lead">we respect the environnement all the time</p>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- End Time -->
-    <!-- Start Section Subscribe -->
-    <div class="subscribe text-center">
-      <div class="container">
-        <h1>Keep In Touch</h1>
-        <p class="lead">
-          Sign Up For Newsletter That For We Help To Be More Efficient
-        </p>
-        <form class="inline-form">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Enter Your Email"
-          />
-          <button class="btn btn-danger">
-            <i class="far fa-edit fa-lg"></i>Subscribe
-          </button>
-        </form>
+        <div class="col-lg-3 col-md-6">
+          <div class="feat">
+            <span class="glyphicon glyphicon-tint" aria-hidden="true"></span>
+            <h3>Quality</h3>
+            <p class="lead">
+              we have very good quality in our company (ISO 9001)
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- End Section Subscribe -->
-    <!-- Start Section Statistics -->
-    <section class="statistics text-center">
-      <div class="data">
-        <div class="container">
-          <h1>Our Statistics</h1>
-          <div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-3">
-              <div class="stat">
-                <i class="fas fa-users fa-5x"></i>
-                <p>9950</p>
-                <span>Satisfied Users</span>
-              </div>
+  </section>
+  <!-- End section Features -->
+  <!-- Start Comment -->
+  <section class="comment text-center">
+    <div class="container">
+      <h3>What Our Client Say</h3>
+      <!-- Start Carousel -->
+
+      <div id="my-side" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <p class="lead">
+              “The service I’ve received from so many people at Lambert
+              Chapman has been excellent, their knowledge and advice have been
+              instrumental in turning around the fortunes of my company.
+              Always professional and friendly in equal measure – even with
+              deadlines looming!”
+            </p>
+            <span>Omar Slahmi</span>
+          </div>
+          <div class="item">
+            <p class="lead">
+              “Starting a new business 6 years ago, Lambert Chapman have been
+              on the other end of the phone or email to help us all the way.
+              Always delivering a friendly and professional service – thank
+              you.”
+            </p>
+            <span>Zakaria Achraq</span>
+          </div>
+          <div class="item">
+            <p class="lead">
+              “Starting a new business 6 years ago, Lambert Chapman have been
+              on the other end of the phone or email to help us all the way.
+              Always delivering a friendly and professional service – thank
+              you.”
+            </p>
+            <span>Fouad Tarmoni</span>
+          </div>
+          <div class="item">
+            <p class="lead">
+              “I find all staff very friendly, helpful and always there to
+              provide that little bit extra.”
+            </p>
+            <span>Mariam Boghli</span>
+          </div>
+        </div>
+        <ol class="carousel-indicators">
+          <li data-target="#my-side" data-slide-to="0" class="active">
+            <img src="img/001.jpg" alt="omar" />
+          </li>
+          <li data-target="#my-side" data-slide-to="1">
+            <img src="img/002.jpg" alt="zakaria" />
+          </li>
+          <li data-target="#my-side" data-slide-to="2">
+            <img src="img/003.jpg" alt="fouad" />
+          </li>
+          <li data-target="#my-side" data-slide-to="3">
+            <img src="img/004.jpg" alt="mariam" />
+          </li>
+        </ol>
+      </div>
+
+      <!-- End Carousel -->
+    </div>
+  </section>
+  <!-- End Comment -->
+  <!-- Start Section Price Table -->
+  <section class="price text-center">
+    <div class="container">
+      <h2 class="hidden-xs">Promotion Spare Parts Motorcycle</h2>
+      <h4 class="hidden-lg hidden-md hidden-sm visible-xs-block">
+        Promotion Spare Parts Motorcycle
+      </h4>
+      <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <div class="box">
+            <h4 class="text-danger">Endgame Hand Grips</h4>
+            <p class="center-block">$195</p>
+            <ul class="list-unstyled">
+              <li>black</li>
+              <li>1,5"</li>
+              <li>Easy-to-instal</li>
+            </ul>
+
+            <button type="button" class="btn btn-danger">Order Now</button>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <div class="box">
+            <h4 class="text-info">Endgame Footpegs</h4>
+            <p class="center-block">$139</p>
+            <ul class="list-unstyled">
+              <li>Black Anodized</li>
+              <li>Intense black rubber</li>
+              <li>Slotted left and right</li>
+            </ul>
+
+            <button type="button" class="btn btn-info">Order Now</button>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <div class="box">
+            <h4 class="text-primary">Harley-Davidson Audio</h4>
+            <p class="center-block">$349</p>
+            <ul class="list-unstyled">
+              <li>Vibration-tested 6.5"</li>
+              <li>Garage-ready installation</li>
+              <li>Upgrade Original Equipment</li>
+            </ul>
+
+            <button type="button" class="btn btn-primary">Order Now</button>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <div class="box">
+            <h4 class="text-success">scream's Eagle Derby Cover</h4>
+            <p class="center-block">$69.95</p>
+            <ul class="list-unstyled">
+              <li>High contrast paint fil</li>
+              <li>Gloss Black finish</li>
+              <li>Easy-to-instal</li>
+            </ul>
+
+            <button type="button" class="btn btn-success">Order Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Section Price Table -->
+  <!-- Start Time -->
+
+  <section class="our-team text-center">
+    <div class="content">
+      <div class="container">
+        <h1>Famous Actors Love motorcycle's</h1>
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="team">
+              <img class="img-circle" src="img/act1.jpg" alt="Johnny Depp" />
+              <h3>Johnny Depp</h3>
+              <p class="lead">
+                CANNES,FRANCE - 14 MAY 2011: Actor Johnny Depp attends the
+                'Pirates of the Caribbean: On Stranger Tides' Premiere during
+                the 64th Cannes Film Festival on May 14, 2011 in Cannes,
+                France.
+              </p>
+              <i class="fab fa-google-plus-g"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-youtube"></i>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-3">
-              <div class="stat">
-                <i class="fas fa-comments fa-5x"></i>
-                <p>9990</p>
-                <span>Posted Comments</span>
-              </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="team">
+              <img class="img-circle" src="img/act2.jpg" alt="Robert De Niro" />
+              <h3>Robert De Niro</h3>
+              <p class="lead">
+                BERLIN - FEBRUARY 10: Actor Robert De Niro attends the
+                premiere to promote the movie 'The Good Shepherd' during the
+                57th Berlin International Film Festival on February 10, 2007
+                in Berlin, Germany
+              </p>
+              <i class="fab fa-google-plus-g"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-youtube"></i>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-3">
-              <div class="stat">
-                <i class="fas fa-suitcase fa-5x"></i>
-                <p>3750</p>
-                <span>Project Done</span>
-              </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="team">
+              <img class="img-circle" src="img/act3.jpg" alt="Leonardo DiCaprio" />
+              <h3>Leonardo DiCaprio</h3>
+              <p class="lead">
+                CANNES, FRANCE - MAY 15: Actor Leonardo DiCaprio attends the
+                Premiere of 'The Great Gatsby' at The 66th Cannes Film
+                Festival Festivals on May 15, 2013 in Cannes, France
+              </p>
+              <i class="fab fa-google-plus-g fa-5x"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-youtube"></i>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-3">
-              <div class="stat">
-                <i class="far fa-life-ring fa-5x"></i>
-                <p>9999</p>
-                <span>Tickets Archived</span>
-              </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="team">
+              <img class="img-circle" src="img/act4.jpg" alt="Penelope Cruz" />
+              <h3>Penelope Cruz</h3>
+              <p class="lead">
+                CANNES, FRANCE - MAY 08: Penelope Cruz attends the screening
+                of 'Everybody Knows' and the opening gala during the 71st
+                Cannes Film Festival on May 8, 2018 in Cannes, France.
+              </p>
+              <i class="fab fa-google-plus-g fa-5x"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-youtube"></i>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- End Section Statistics -->
-    <!-- Start section Skills -->
-    <section class="our-skills">
-      <div class="container">
-        <h2 class="text-center">Our Skills</h2>
-        <div class="row">
-          <!-- start progress skills -->
+    </div>
+  </section>
 
-          <div class="col-md-5 col-lg-5">
-            <div class="skill-prog">
-              <div class="progress">
-                <div
-                  class="
+  <!-- End Time -->
+  <!-- Start Section Subscribe -->
+  <div class="subscribe text-center">
+    <div class="container">
+      <h1>Keep In Touch</h1>
+      <p class="lead">
+        Sign Up For Newsletter That For We Help To Be More Efficient
+      </p>
+      <form class="inline-form">
+        <input type="text" class="form-control" placeholder="Enter Your Email" />
+        <button class="btn btn-danger">
+          <i class="far fa-edit fa-lg"></i>Subscribe
+        </button>
+      </form>
+    </div>
+  </div>
+  <!-- End Section Subscribe -->
+  <!-- Start Section Statistics -->
+  <section class="statistics text-center">
+    <div class="data">
+      <div class="container">
+        <h1>Our Statistics</h1>
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="stat">
+              <i class="fas fa-users fa-5x"></i>
+              <p>9950</p>
+              <span>Satisfied Users</span>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="stat">
+              <i class="fas fa-comments fa-5x"></i>
+              <p>9990</p>
+              <span>Posted Comments</span>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="stat">
+              <i class="fas fa-suitcase fa-5x"></i>
+              <p>3750</p>
+              <span>Project Done</span>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="stat">
+              <i class="far fa-life-ring fa-5x"></i>
+              <p>9999</p>
+              <span>Tickets Archived</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Section Statistics -->
+  <!-- Start section Skills -->
+  <section class="our-skills">
+    <div class="container">
+      <h2 class="text-center">Our Skills</h2>
+      <div class="row">
+        <!-- start progress skills -->
+
+        <div class="col-md-5 col-lg-5">
+          <div class="skill-prog">
+            <div class="progress">
+              <div class="
                     progress-bar progress-bar-success  
-                  "
-                  role="progressbar"
-                  aria-valuenow="90"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style="width: 90%"
-                >
-                  Html/Css
-                </div>
+                  " role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                Html/Css
               </div>
-              <div class="progress">
-                <div
-                  class="
+            </div>
+            <div class="progress">
+              <div class="
                     progress-bar progress-bar-info 
-                  "
-                  role="progressbar"
-                  aria-valuenow="60"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style="width: 60%"
-                >
-                  JavaScript
-                </div>
+                  " role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                JavaScript
               </div>
-              <div class="progress">
-                <div
-                  class="
+            </div>
+            <div class="progress">
+              <div class="
                     progress-bar progress-bar-warning 
-                  "
-                  role="progressbar"
-                  aria-valuenow="80"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style="width: 80%"
-                >
-                  Bootstrap
-                </div>
+                  " role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                Bootstrap
               </div>
-              <div class="progress">
-                <div
-                  class="
+            </div>
+            <div class="progress">
+              <div class="
                     progress-bar progress-bar-danger 
-                  "
-                  role="progressbar"
-                  aria-valuenow="50"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style="width: 50%"
-                >
-                  PHP/Python
-                </div>
+                  " role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                PHP/Python
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- end progress skills-->
-          <!-- start team info -->
+        <!-- end progress skills-->
+        <!-- start team info -->
 
-          <div class="col-md-6 col-lg-6 col-md-offset-1">
-            <div class="skill-info">
-              <h3>About The Team</h3>
-              <p class="lead">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
-                magnam numquam doloremque est quae eveniet!
-              </p>
-              <button type="button" class="btn btn-info btn-lg">Talk With Professional</button>
+        <div class="col-md-6 col-lg-6 col-md-offset-1">
+          <div class="skill-info">
+            <h3>About The Team</h3>
+            <p class="lead">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
+              magnam numquam doloremque est quae eveniet!
+            </p>
+            <button type="button" class="btn btn-info btn-lg">Talk With Professional</button>
+          </div>
+        </div>
+
+        <!-- end team info -->
+      </div>
+    </div>
+  </section>
+  <!-- End section Skills -->
+  <!-- Start Section Contact Us -->
+  <section class="contact-us text-center">
+    <div class="felids">
+      <div class="container">
+        <div class="row">
+
+          <i class="fas fa-headphones fa-7x"></i>
+          <h1>Tell Us What You Fill</h1>
+          <p class="lead">Lorem ipsum dolor sit amet.</p>
+          <!-- Start contact form -->
+
+
+          <div class=" col-md-6 ">
+            <form role="form">
+              <div class="form-group">
+                <input type="text" class="form-control input-lg" placeholder="User Name">
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control input-lg" placeholder="Email">
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control input-lg" placeholder="Phone Cell">
+              </div>
+          </div>
+          <div class=" col-md-6 ">
+            <div class="form-group">
+              <textarea class="form-control input-lg" placeholder="Message.....!"></textarea>
             </div>
+            <button type="button" class="btn btn-danger btn-lg btn-block">Contact Us</button>
           </div>
 
-          <!-- end team info -->
+          </form>
+
+          <!-- End contact form -->
         </div>
       </div>
-    </section>
-    <!-- End section Skills -->
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+    </div>
+  </section>
+
+  <!-- End Section Contact Us -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>

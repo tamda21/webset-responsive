@@ -1,25 +1,31 @@
 $mainColor: #e14b42;
+
 body {
   height: 8000px;
   padding-top: 70px;
 }
+
 //Start Navbar
 //navbar main
 .navbar {
   min-height: 70px;
 }
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover,
-.navbar-inverse .navbar-nav > .active > a:focus {
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
   background-color: $mainColor;
   color: #dfd7d7;
 }
-.navbar-inverse .navbar-nav > li > a {
+
+.navbar-inverse .navbar-nav>li>a {
   color: #dfd7d7;
 }
-.nav > li > a {
+
+.nav>li>a {
   margin-top: 9px;
 }
+
 .navbar-inverse .navbar-brand {
   color: #dfd7d7;
 }
@@ -28,6 +34,7 @@ body {
 .navbar-brand {
   font-size: 20px;
   padding: 22px 15px;
+
   span {
     color: $mainColor;
   }
@@ -39,14 +46,17 @@ body {
   background-color: #333;
   transition: all 0.5s ease;
 }
-.navbar-nav > li > .dropdown-menu {
+
+.navbar-nav>li>.dropdown-menu {
   right: auto;
   left: 0;
 }
-.dropdown-menu > li > a {
+
+.dropdown-menu>li>a {
   color: #fff;
 }
-.dropdown-menu > li > a:hover {
+
+.dropdown-menu>li>a:hover {
   background-color: $mainColor;
   color: #fff;
   padding: 10px;
@@ -58,6 +68,7 @@ body {
 img {
   width: 100%;
 }
+
 //caption
 .carousel-caption {
   margin-bottom: 50px;
@@ -65,9 +76,11 @@ img {
   opacity: 0.5;
   border-radius: 20px;
 }
+
 //carousel-indicators
 .carousel-indicators {
   bottom: 0;
+
   li {
     width: 25px;
     height: 25px;
@@ -81,25 +94,31 @@ img {
     background-color: $mainColor;
   }
 }
+
 .glyphicon-chevron-left:hover,
 .glyphicon-chevron-right:hover {
   color: $mainColor;
 }
+
 // End carousal
 // Start section About
 .about {
   padding-top: 60px;
   padding-bottom: 60px;
+
   h3 {
     font-weight: bold;
+
     span {
       color: $mainColor;
     }
   }
+
   .lead {
     line-height: 2em;
   }
 }
+
 // End section About
 //Start section Features
 .features {
@@ -107,6 +126,7 @@ img {
   width: 100%;
   height: fit-content;
   padding-bottom: 20px;
+
   h2 {
     margin-bottom: 40px;
   }
@@ -120,17 +140,21 @@ img {
   height: 180px;
   border-radius: 25px;
   transition: all 0.5s ease-in-out;
+
   &:hover span,
   &:hover h3 {
     color: #000;
     transform: scale(1.5, 1.5);
   }
+
   span {
     font-size: 20px;
   }
+
   h3 {
     margin-bottom: 15px;
   }
+
   p {
     text-transform: capitalize;
     font-size: 15px;
@@ -142,26 +166,32 @@ img {
 .comment {
   padding-top: 50px;
   padding-bottom: 50px;
+
   h3 {
     font-weight: bold;
   }
+
   .lead {
     line-height: 2em;
     margin-bottom: 10px;
   }
+
   span {
     font-size: 18px;
     font-weight: bold;
     color: $mainColor;
   }
+
   .carousel-inner {
     min-height: 160px;
   }
+
   .carousel-indicators {
     position: static;
     width: 100%;
     margin-left: auto;
     padding-top: 20px;
+
     li {
       text-indent: 0;
       width: 80px;
@@ -170,6 +200,7 @@ img {
       margin-left: 10px;
       border: 3px solid #eee;
       opacity: 0.5;
+
       &:hover {
         border: 3px solid $mainColor;
         opacity: 1;
@@ -177,6 +208,7 @@ img {
     }
   }
 }
+
 //End Section Comment
 
 //Start section price table
@@ -184,26 +216,32 @@ img {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #eee;
+
   h2 {
     margin-bottom: 50px;
   }
+
   h4 {
     margin-bottom: 30px;
     font-weight: bold;
   }
+
   .box {
     margin-bottom: 30px;
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 10px;
+
     &:hover p {
       transform: scale(1.1, 1.1) rotate(360deg);
     }
+
     h4 {
       margin-bottom: 10px;
       font-weight: bold;
       white-space: nowrap;
     }
+
     p {
       font-size: 25px;
       margin-bottom: 15px;
@@ -216,10 +254,12 @@ img {
       border-radius: 50%;
       transition: all 0.7s ease;
     }
+
     ul {
       line-height: 250%;
       font-weight: bold;
     }
+
     button {
       margin-bottom: 10px;
     }
@@ -233,6 +273,7 @@ img {
   background-size: cover;
   min-height: 600px;
   color: #fff;
+
   .content {
     background-color: rgba(2, 2, 2, 0.6);
     min-height: 300px;
@@ -241,12 +282,15 @@ img {
       margin-top: 50px;
       margin-bottom: 50px;
     }
+
     .team {
       padding-top: 40px;
       padding-bottom: 40px;
+
       h3 {
         margin-bottom: 40px;
       }
+
       i {
         font-size: 15px;
         margin-right: 10px;
@@ -254,6 +298,7 @@ img {
     }
   }
 }
+
 // End section Our-Team
 // Start Section Subscribe
 .subscribe {
@@ -266,9 +311,11 @@ img {
     color: #888;
     letter-spacing: 2px;
   }
+
   p {
     margin-bottom: 30px;
   }
+
   .inline-form {
     input {
       width: 300px;
@@ -276,6 +323,7 @@ img {
       border-radius: 0;
       margin-bottom: 5px;
     }
+
     .btn {
       padding: 5.75px 15px;
       margin-bottom: 2px;
@@ -285,6 +333,7 @@ img {
     }
   }
 }
+
 // End Section Subscribe
 
 // Start Section Statistics
@@ -292,9 +341,11 @@ img {
   background: url(../img/moto.jpg) no-repeat center center fixed;
   background-size: cover;
   min-height: 300px;
+
   h1 {
     margin-bottom: 50px;
   }
+
   .data {
     background-color: rgba(2, 2, 2, 0.7);
     color: #b6b5b5;
@@ -302,36 +353,45 @@ img {
     padding-top: 40px;
     padding-bottom: 70px;
   }
+
   .stat {
     margin-bottom: 20px;
     transition: all 0.5s ease-in-out;
+
     p {
       font-size: 60px;
       margin-bottom: 0;
       font-weight: bold;
     }
+
     span {
       font-size: 18px;
     }
+
     &:hover {
       color: #fff;
     }
   }
 }
+
 // End Section Statistics
 // Start section Skills
 .our-skills {
   padding-top: 40px;
   padding-bottom: 70px;
-  h2{
+
+  h2 {
     margin-bottom: 25px;
   }
-  .skill-prog{
+
+  .skill-prog {
     margin-top: 25px;
     margin-bottom: 35px;
-    .progress{
+
+    .progress {
       height: 30px;
-      .progress-bar{
+
+      .progress-bar {
         line-height: 30px;
         margin-bottom: 10px;
         font-size: 15px;
@@ -341,6 +401,38 @@ img {
       }
     }
   }
- 
+
 }
+
 // End section Skills
+// Start Section Contact Us
+.contact-us {
+  background: url(../img/contact.jpg) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 300px;
+
+  .felids {
+    background-color: rgba(9, 9, 9, 0.5);
+    color: #fff;
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  p {
+    margin-bottom: 40px;
+  }
+
+  textarea {
+    height: 107px;
+  }
+
+  input[type="text"],
+  textarea {
+    background-color: rgba(82, 78, 78, 0.5);
+    color: #fff;
+    border: none;
+  }
+}
+
+// End Section Contact Us
