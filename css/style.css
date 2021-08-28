@@ -1,5 +1,4 @@
 body {
-  height: 8000px;
   padding-top: 70px;
 }
 
@@ -426,5 +425,85 @@ img {
 
 .our-client img:hover {
   opacity: 1;
+}
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding-top: 20px;
+}
+
+.footer h3 {
+  margin-bottom: 30px;
+  color: #0895D1;
+  letter-spacing: 2px;
+}
+
+.footer .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.footer .links img {
+  width: 48px;
+  height: 48px;
+}
+
+.footer .links li {
+  width: 33.33%;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.footer .web {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  margin-top: 30px;
+}
+
+.footer .web li {
+  margin: 0 5px;
+  opacity: 0.5;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.footer .web li:hover {
+  opacity: 1;
+}
+
+.footer .media img {
+  width: 50px;
+  height: 50px;
+}
+
+.footer .dimo img {
+  width: 150px;
+  height: 100px;
+  display: inline-block;
+  margin-bottom: 5px;
+  border: 3px solid #666;
+}
+
+.footer .copyright {
+  background-color: #333;
+  color: #AAA;
+  padding: 20px 0;
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.footer .copyright span {
+  color: #0895D1;
 }
 /*# sourceMappingURL=style.css.map */
